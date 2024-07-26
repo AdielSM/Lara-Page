@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logo from "../../../public/Logo_Lara.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import logo from "../../public/Logo_Lara.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faYoutube } from '@fortawesome/free-brands-svg-icons'
-import styles from '../style/footer.module.css'
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import styles from '../style/footer.module.css';
 
 
 export default function Footer(){

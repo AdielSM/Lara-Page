@@ -1,4 +1,4 @@
-import logo from '../../../public/Logo_Lara.png';
+import logo from "../../public/Logo_Lara.png";
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../style/header.module.css'
