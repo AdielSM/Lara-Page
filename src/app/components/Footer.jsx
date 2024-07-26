@@ -11,7 +11,7 @@ export default function Footer(){
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_container}>
-                 <div className={styles.column}>  
+                <div className={styles.column}>  
                     <div className={styles.footer_logo}>
                         <Image src={logo} alt="logo"/>
                     </div>
@@ -24,7 +24,7 @@ export default function Footer(){
                         <FontAwesomeIcon icon={faXTwitter} className={styles.footer_social_icons} />
                         <FontAwesomeIcon icon={faYoutube} className={styles.footer_social_icons} />
                     </div>
-                  </div>
+                </div>
             
                 <div className={styles.column}>
                     <div className={styles.footer_links}>
