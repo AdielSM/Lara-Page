@@ -1,0 +1,66 @@
+.main{
+    background-color: #63D9604A;
+    color: #000000;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.main_title, .main_title_green{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.main_title_green{
+    color: #63D960;
+    font-weight: 700;
+}
+
+.main_subtitle{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: -1rem;
+    
+}
+
+.main_content, .main_picture{
+    margin-top: -2rem;
+}
+
+.main_button{
+    height: 48px;
+    background-color: #4CAF4F;
+    font-weight: 400;
+    color: white;
+    padding: 0.8rem 1.7rem;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.our_clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients_logo_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.logo_example{
+    width: 4%;
+    height: 50%;
+}
+
+/* .main_picture{
+    
+    
+}	 */

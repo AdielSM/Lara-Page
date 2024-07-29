@@ -13,16 +13,18 @@ export default function Header() {
         </div>
         <div className={styles.nav}>
             <nav className={styles.navBar}>
-                <a href="">Home</a>
-                <a href="">Sobre Nós</a>
-                <a href="">Projetos</a>
-                <a href="">Equipe</a>
+                <a href="#">Home</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projetos</a>
+                <a href="#">Equipe</a>
             </nav>
             <button className={styles.contact_button}>
-                Contato
-                <FontAwesomeIcon className={styles.contact_button_arrow} 
-                icon={faArrowRight}/>
-                </button>
+                <a href="#">
+                    Contato
+                    <FontAwesomeIcon className={styles.contact_button_arrow} 
+                    icon={faArrowRight}/>
+                </a>
+            </button>
         </div>
     </header>
     );
