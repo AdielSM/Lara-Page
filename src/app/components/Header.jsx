@@ -15,7 +15,7 @@ export default function Header() {
             <nav className={styles.navBar}>
                 <a href="">Home</a>
                 <a href="">Sobre Nós</a>
-                <a href="">Projetos</a>
+                <Link href="/projetos">Projetos</Link>
                 <a href="">Equipe</a>
             </nav>
             <button className={styles.contact_button}>
