@@ -25,8 +25,10 @@ export default function page() {
                 </div>
             </section>
             <section className={styles.our_clients}>
-                <h1>Nossos Clientes</h1>
-                <p>Nós já trabalhamos com mais de 0000 clientes</p>
+                <div className={styles.our_clients_title}>
+                    <h1>Nossos Clientes</h1>
+                    <p>Nós já trabalhamos com mais de 0000 clientes</p>
+                </div>
                 <div className={styles.clients_logo_list}>
                     <Image className={styles.logo_example} src={logo_example} alt="Logo do cliente 2"/>
                     <Image className={styles.logo_example} src={logo_example} alt="Logo do cliente 1"/>

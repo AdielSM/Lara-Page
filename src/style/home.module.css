@@ -45,6 +45,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 24px;
+}
+
+.our_clients_title{
+    text-align: center;
+}
+
+.our_clients_title h1{
+    font-size: 32px;
+    color: #4D4D4D;
+}
+
+.our_clients_title p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-top: -7px;
 }
 
 .clients_logo_list{
